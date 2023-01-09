@@ -20,7 +20,7 @@ function Profile(props) {
   const [parentprofile, setparentprofile] = useState({});
   const [teacherprofile, setteacherprofile] = useState({});
   useEffect(() => {
-    fetch("/api/getstudentprofile", {
+    fetch("https://samraksha-api.onrender.com/api/getstudentprofile", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -34,7 +34,7 @@ function Profile(props) {
       });
   }, []);
   useEffect(() => {
-    fetch("/api/getparentprofile", {
+    fetch("https://samraksha-api.onrender.com/api/getparentprofile", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -48,7 +48,7 @@ function Profile(props) {
       });
   }, []);
   useEffect(() => {
-    fetch("/api/getteacherprofile", {
+    fetch("https://samraksha-api.onrender.com/api/getteacherprofile", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

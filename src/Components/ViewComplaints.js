@@ -7,7 +7,7 @@ const ViewComplaints = () => {
     const [complaint,setcomplaint]=useState([]);
     let body={rollno:localStorage.getItem("rollno")}
     useEffect(() => {
-        fetch("/api/viewcomplaint", {
+        fetch("https://samraksha-api.onrender.com/api/viewcomplaint", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

@@ -32,7 +32,7 @@ const Manageclassroom = () => {
       method:t,
       classes:classes
     }
-    fetch("/api/manageclasses",{
+    fetch("https://samraksha-api.onrender.com/api/manageclasses",{
       method: "POST",
       headers: {
         "Content-Type": "application/json",

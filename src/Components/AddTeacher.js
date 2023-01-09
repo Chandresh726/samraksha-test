@@ -39,7 +39,7 @@ const AddTeacher=()=>{
       classteacher:Classteacher,
       assignedclasses:Classnos,
     };
-    fetch("/api/register/teacher", {
+    fetch("https://samraksha-api.onrender.com/api/register/teacher", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

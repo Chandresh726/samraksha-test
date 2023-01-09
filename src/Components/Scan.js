@@ -26,7 +26,7 @@ const Scan = () => {
     let rollno = data.split("@")[0];
     // let rollno = "503";
     console.log(rollno);
-    fetch("/api/getstudent", {
+    fetch("https://samraksha-api.onrender.com/api/getstudent", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -47,7 +47,7 @@ const Scan = () => {
 
     var date = new Date();
     var time = date.toLocaleString("en-GB");
-    fetch("/api/checkin", {
+    fetch("https://samraksha-api.onrender.com/api/checkin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -68,7 +68,7 @@ const Scan = () => {
   const handlecheckout = () => {
     var date = new Date();
     var time = date.toLocaleString("en-GB");
-    fetch("/api/checkout", {
+    fetch("https://samraksha-api.onrender.com/api/checkout", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

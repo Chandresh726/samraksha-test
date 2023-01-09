@@ -52,7 +52,7 @@ const AddStudent=()=>{
       parentpassword:Parentno,
       classnumber:Classno,
     };
-    fetch("/api/register/student", {
+    fetch("https://samraksha-api.onrender.com/api/register/student", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -13,7 +13,7 @@ function Login(props) {
   };
   const handlesubmit = (e) => {
     e.preventDefault();
-    fetch("/api/login", {
+    fetch("https://samraksha-api.onrender.com/api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

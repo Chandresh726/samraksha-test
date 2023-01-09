@@ -18,7 +18,7 @@ const AddComplaints=()=>{
                 Complaint:Complaint,
                 date:d.toLocaleString("en-GB").split(",")[0]
             }
-            fetch("/api/addcomplaint",{
+            fetch("https://samraksha-api.onrender.com/api/addcomplaint",{
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",

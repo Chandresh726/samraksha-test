@@ -46,7 +46,7 @@ class Get extends Component {
     };
   }
   getResponce(str) {
-    fetch("/api/chatbot", {
+    fetch("https://samraksha-api.onrender.com/api/chatbot", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

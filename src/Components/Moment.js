@@ -15,7 +15,7 @@ const Moment = () => {
   const [data, setData] = useState([]);
   const [status, setStatus] = useState("...");
   useEffect(() => {
-    fetch("/api/getmoments", {
+    fetch("https://samraksha-api.onrender.com/api/getmoments", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
