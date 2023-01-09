@@ -33,7 +33,7 @@ const Admin = () => {
                   variant="primary"
                   onClick={() => {
                     window.location.href =
-                      "https://samraksha.herokuapp.com//AddStudent";
+                      "https://samraksha-test.onrender.com/AddStudent";
                   }}
                 >
                   Add Student
@@ -43,7 +43,7 @@ const Admin = () => {
                   variant="primary"
                   onClick={() => {
                     window.location.href =
-                      "https://samraksha.herokuapp.com//AddTeacher";
+                      "https://samraksha-test.onrender.com//AddTeacher";
                   }}
                 >
                   Add Teacher
@@ -68,7 +68,7 @@ const Admin = () => {
                 style={{ marginTop: "2%" }}
                 onClick={() => {
                   window.location.href =
-                    "https://samraksha.herokuapp.com//manageclasses";
+                    "https://samraksha-test.onrender.com/manageclasses";
                 }}
               >
                 Manage

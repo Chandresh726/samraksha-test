@@ -15,7 +15,7 @@ function Header(props) {
   let Auth = localStorage.getItem("Auth");
   const activateLogout = () => {
     localStorage.clear();
-    window.location.href = "https://samraksha.herokuapp.com/";
+    window.location.href = "https://samraksha-test.onrender.com/";
   };
   return (
     <div>
