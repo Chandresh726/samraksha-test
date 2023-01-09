@@ -43,7 +43,7 @@ const Admin = () => {
                   variant="primary"
                   onClick={() => {
                     window.location.href =
-                      "https://samraksha-test.onrender.com//AddTeacher";
+                      "https://samraksha-test.onrender.com/AddTeacher";
                   }}
                 >
                   Add Teacher

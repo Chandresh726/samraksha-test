@@ -91,7 +91,7 @@ function Header(props) {
               )}
               {type === "admin" ? (
                 <>
-                  <Nav.Link href="/addclasses">ManageClasses</Nav.Link>
+                  <Nav.Link href="/manageclasses">ManageClasses</Nav.Link>
                   <Nav.Link href="#addclasses">ManageTimetable</Nav.Link>
                 </>
               ) : (
